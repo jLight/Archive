@@ -1,0 +1,14 @@
+
+
+#element-box{       
+    position:relative;     z-index:-1; 
+}
+
+.gk-preloader{ 
+    background:red; 
+    height:100%; left:0; 
+    position:absolute; 
+    top:0; 
+    width:100%; 
+  
+}

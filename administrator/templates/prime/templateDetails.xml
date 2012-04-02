@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.7/template-install.dtd">
+
+<extension type="template" version="2.5" client="administrator" method="upgrade">
+	
+  <name>Prime</name>
+	<creationDate>01/2012</creationDate>
+	<author>Andrzej Makowiecki</author>
+	<authorEmail>prime@joomladmin.pl</authorEmail>
+	<authorUrl>http://www.joomladmin.pl</authorUrl>
+	<copyright>Copyright JoomlAdmin</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>2.5.0</version>
+	<description>TPL_PRIME_XML_DESCRIPTION</description>
+  
+  <updateservers>
+   
+    <server type="extension" name="Prime template">http://joomladmin.pl/update/prime/prime.xml/</server>  
+  
+  </updateservers>
+	
+  <files> 
+  
+		<filename>index.php</filename>
+		<filename>login.php</filename>
+		<filename>component.php</filename>
+		<filename>cpanel.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>params.ini</filename>
+		<filename>template_preview.png</filename>		
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		
+		<folder>js</folder>
+		<folder>css</folder>
+		<folder>html</folder> 
+    <folder>images</folder> 
+    <folder>language</folder> 
+  
+  </files>
+  
+	<positions>
+  
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>footer</position>
+		<position>login</position>
+		<position>debug</position>
+    
+	</positions>
+  
+	<config>
+  
+		<fields name="params">
+			<fieldset name="basic">
+      
+        <field
+					name="showSiteName"
+					type="radio"
+					default="1"
+					label="TPL_PRIME_FIELD_SITENAME_LABEL"
+					description="TPL_PRIME_FIELD_SITENAME_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+      
+				<field
+					name="roundedCorners"
+					type="radio"
+					default="1"
+					label="TPL_PRIME_FIELD_ROUNDED_LABEL"
+					description="TPL_PRIME_FIELD_ROUNDED_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+        
+        <field
+					name="enableGradients"
+					type="radio"
+					default="1"
+					label="TPL_PRIME_FIELD_GRADIENTS_LABEL"
+					description="TPL_PRIME_FIELD_GRADIENTS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+        <field
+					name="dropShadow"
+					type="radio"
+					default="1"
+					label="TPL_PRIME_FIELD_DROPSHADOW_LABEL"
+					description="TPL_PRIME_FIELD_DROPSHADOW_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+        <field
+					name="textBig"
+					type="radio"
+					default="0"
+					label="TPL_PRIME_FIELD_TEXTBIG_LABEL"
+					description="TPL_PRIME_FIELD_TEXTBIG_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+        <field
+					name="CustomStyle"
+					type="radio"
+					default="1"
+					label="TPL_PRIME_FIELD_CUSTOMSTYLE_LABEL"
+					description="TPL_PRIME_FIELD_CUSTOMSTYLE_DESC">
+					<option value="0">JNO</option>
+					<option	value="1">JYES</option>
+				</field>
+				
+<!--    <field
+					name="EnableAjax"
+					type="radio"
+					default="0"
+					label="TPL_PRIME_FIELD_ENABLEAJAX_LABEL"
+					description="TPL_PRIME_FIELD_ENABLEAJAX_DESC">
+					<option	value="0">JNO</option>
+					<option	value="1">JYES</option>
+				</field>  -->
+        
+			</fieldset>  
+		</fields>
+    
+	</config>
+  
+</extension>

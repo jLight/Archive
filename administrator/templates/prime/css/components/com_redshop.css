@@ -1,0 +1,33 @@
+.com_redshop____page  table.adminlist tbody tr:hover td, 
+.com_redshop____page  .panel table.adminlist tbody tr:hover, 
+.com_redshop____page  #panel-sliders .panel table.adminlist tbody th:hover   { background: none;  }
+
+.com_redshop____page table.adminlist td:nth-child(2) a  { padding: 0px;   }
+
+
+
+.com_redshop .distitle {
+
+	color: #006699;
+	font-size: 1.182em;
+	border-bottom: 3px solid #EAEAEA;
+	padding: 2px 10px;
+	margin-bottom: 2px;
+	
+  float: left; 
+	font-weight: bold;
+
+}
+
+.com_redshop .stat-pane {   width: 190px;  }
+
+#minwidth-body   { max-width: 90%;  }
+
+
+#min-width.com_redshop    { max-width: 100%;  }
+
+
+table.admintable td.key, table.admintable td.paramlist_key  {  border: 0; padding: 0; background: none;  }
+
+
+fieldset.adminform label.radiobtn, table.admintable label.radiobtn { margin : 0;  }

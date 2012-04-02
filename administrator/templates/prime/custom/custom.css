@@ -1,0 +1,270 @@
+.com_content .access,
+.com_content .author,
+.com_content .language,
+.com_content select[name=filter_language]  { display: none;  }
+
+.com_content .category { width: 200px }
+
+
+/**
+ * @package    jAdmin+ 1.5
+ * @copyright	(c) 2010 JoomlAdmin. All rights reserved.
+ * @license		GNU General Public License version 3
+ */
+
+
+/* 
+
+ 
+body {
+	color: #ccc;
+}
+.background {
+	background: #111;
+}
+a:link, a:visited {
+	color: #999;
+}
+.tip {
+	color: #000;
+}
+#element-box, #element-box-cpanel, div.current, #module-status,  #status-module {
+	background-color: #333 !important;
+	border-color: #444 !important;
+}
+
+#module a { background-color: #333 !important; } 
+
+#menu li a, #menu ul, #menu li {
+	color: #F5F5F5;
+	border-color: #444;
+}
+#menu li:hover a {
+	background-color: #222;
+	border-color: #222;
+}
+#menu ul ul, #menu ul {
+	background-color: #222;
+	border-color: #444;
+}
+#menu li:hover li:hover a, #menu li:hover li:hover li:hover a {
+	background-color: #333;
+	border-top-color: #444;
+	border-bottom-color: #444;
+}
+#menu ul li.separator {
+	border-top: 1px dashed #444;
+	background: none;
+}
+#submenu a, dl.tabs dt {
+	color: #888 !important;
+	background-color: #222 !important;
+	border-color: #444 !important;
+	border-bottom-color: #333 !important;
+}
+#submenu a.active, dl.tabs dt.open {
+	color: #fff !important;
+	background-color: #333 !important;
+	border-color: #444 !important;
+	border-bottom-color: #333 !important;
+}
+#module-status {
+	color: #999 !important;
+}
+#module-status a {
+	color: #fff;
+}
+#module-status a:hover {
+	color: #ffffaa;
+}
+table.adminlist {
+	color: #999;
+}
+table.adminlist a {
+	color: #DCDCDC;
+}
+table.adminlist a:hover {
+	color: #fff;
+}
+input, select, {
+	border: 1px solid #d2d9dc;
+	box-shadow: 0px 0px 5px #d2d9dc;
+}
+input, textarea, select {
+	background-color: #222;
+	border-color: #555;
+	color: #888;
+	box-shadow: none;
+}
+input:focus, textarea:focus, select:focus {
+	border: 1px solid #FFFFAA;
+	box-shadow: 0 2px 20px #FFFFAA;
+	color: #FFFFAA;
+	background-color: none;
+}
+input:focus, textarea:focus, select:focus {
+	background-color: #2B2B2B !important;
+}
+input[type="checkbox"], input[type='radio'] {
+	border-color: #666;
+	color: #ffffaa;
+}
+input.readonly {
+	background-color: #333;
+}
+.no-trans {
+	background-color: #463333 !important;
+	color: #1000 !important;
+}
+.no-trans:focus {
+	background-color: #111 !important;
+	color: #E5E5E5 !important;
+}
+#cpanel div.icon a {
+	background-color: #333;
+	border-color: #444;
+	color: #999;
+}
+#cpanel div.icon a:hover {
+	background-color: #222;
+	border-color: #444;
+	color: #DCDCDC;
+	box-shadow: none;
+}
+.pane-sliders .adminlist tr:hover td {
+	border-color: #444;
+	background-color: #333;
+}
+.pane-sliders .adminlist .title {
+	background-color: #222;
+}
+.pane-sliders .panel {
+	border-color: #444;
+}
+.pane-sliders .content {
+	color: #999;
+}
+.pane-sliders .pane-down {
+	background-color: #222;
+}
+.pane-toggler-down {
+	border-color: #444;
+	background-color: #222;
+}
+.pane-sliders .panel h3:hover {
+	background-color: #444 !important;
+}
+.pane-toggler-down span, .pane-toggler span:hover {
+	color: #DCDCDC !important;
+}
+.pane-toggler span {
+	color: #999 !important;
+}
+fieldset.panelform {
+	background-color: #333;
+}
+fieldset.adminform label, fieldset.panelform label, fieldset.panelform div.paramrow label, fieldset.panelform span.faux-label {
+	background-color: #222;
+	border-color: #444;
+	color: #999;
+}
+fieldset.uploadform legend {
+	color: #E5E5E5;
+}
+td.paramlist_value {
+	background-color: #333;
+	border-color: #333;
+}
+legend {
+	border-color: #555555;
+	color: #E5E5E5
+}
+div.toolbar-list li.divider {
+	border-color: #444;
+}
+div.toolbar-list a:hover, div.toolbar-list a:focus, div.toolbar-list a:active {
+	color: #fff;
+}
+table.adminlist tfoot td, table.adminlist tfoot th {
+	background-color: #333;
+	border-color: #444;
+}
+.pane-sliders .adminlist thead th {
+	background-color: #222;
+	border-bottom-color: #444;
+	border-top-color: #222;
+}
+table.adminlist thead th, table.adminlist thead th a {
+	background-color: #222;
+	
+	border-color: #444;
+}
+table.adminform th {
+	color: #999;
+}
+div.toolbar-list span.icon-32-edit, div.toolbar-list span.icon-32-purge, div.toolbar-list span.icon-32-refresh, div.toolbar-list span.icon-32-remove, div.toolbar-list span.icon-32-checkin, div.toolbar-list span.icon-32-options, div.toolbar-list span.icon-32-help, div.toolbar-list span.icon-32-archive, div.toolbar-list span.icon-32-edit, div.toolbar-list span.icon-32-move, div.toolbar-list span.icon-32-config, div.toolbar-list span.icon-32-trash, div.toolbar-list span.icon-32-copy, div.toolbar-list span.icon-32-publish, div.toolbar-list span.icon-32-unpublish {
+	opacity: 0.8;
+}
+
+/* Kunena 
+div#element-box, div#element-box p, .kadmin-welcome,  .kadmin-functitle, .thisform, #kadmin-menu a, #kadmin-menu, .kadmin-left {
+	background-color: #333 !important;
+	color: #CCC !important;
+	border-color: #444 !important;
+}
+div.kadmin-right h1 {
+	color:  #E5E5E5 !important
+}
+.kadmin-right div {
+	border-color: #444 !important;
+}
+#kadmin-menu a:hover {
+	background-color: #444 !important;
+}
+table.adminlist tbody tr.row0:hover td, table.adminlist tbody tr.row1:hover td, .jpane-toggler:hover {
+	background-color: #222;
+	border-top-color: #444;
+	border-bottom-color: #444;
+}
+tr.row1 {
+	background-color: #303030;
+}
+#login-intro {
+	background-color: #333;
+	border-color: #555;
+}
+button, input.button, .button2-left, input[type="submit"], input[type="button"] {
+	background-color: #333;
+	border-color: #444;
+	color:        #DCDCDC;
+	box-shadow: inset 0 10px 10px #333, inset 0 -15px #222, 0 0 3px #222;
+	-moz-box-shadow: inset 0 10px 10px #333, inset 0 -15px #222, 0 0 3px #222;
+	-webkit-box-shadow: inset 0 10px 10px #333, inset 0 -15px #222, 0 0 3px #222;
+}
+button:hover, input[type="button"]:hover, .button2-left:hover, .button2-right:hover {
+	background-color: #222;
+	border-color: #444;
+	box-shadow: inset 0 -10px 10px #333, inset 0 -15px #222, 0 0 3px #222;
+	-moz-box-shadow: inset 0 -10px 10px #333, inset 0 -15px #222, 0 0 3px #222;
+	-webkit-box-shadow: inset 0 -10px 10px #333, inset 0 -15px #222, 0 0 3px #222;
+}
+.pane-toggler span {
+	background: transparent url(../images/black/j_arrow.png) 7px 50% no-repeat;
+}
+#menu ul li.node {
+	background: transparent url(../images/black/j_arrow.png) no-repeat right 50%;
+}
+#parameter-accordion h3.toggler {
+	background: transparent url(../images/black/j_arrow.png) 10px 50% no-repeat;
+}
+.pane-toggler-down span {
+	background: transparent url(../images/black/j_arrow_down.png) 4px 50% no-repeat;
+}
+.slider {
+	background-image: url(../images/black/j_arrow_down.png) !important;
+}
+#parameter-accordion h3.toggler.active {
+	background: transparent url(../images/black/j_arrow_down.png) 10px 50% no-repeat;
+}
+
+*/
